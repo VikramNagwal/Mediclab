@@ -8,6 +8,9 @@ import Patients from "./components/Patients"
 import Services from "./components/Services"
 
 const App = () => {
+
+  document.title = "mediclab"
+
   return (
     <div>
      <Navbar />
