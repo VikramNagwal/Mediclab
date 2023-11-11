@@ -12,7 +12,7 @@ const Navbar = () => {
         <p className="text-2xl md:text-3xl text-blue-950 font-bold">mediclab<span className="text-red-900">.</span></p>
 
 <div className='flex justify-between items-center'>
-        <button className="rounded-full mx-6 text-white px-3 py-2 bg-blue-700 capitalize">contact us</button>
+        <button className="hidden md:block rounded-full mx-6 text-white px-3 py-2 bg-blue-700 capitalize">contact us</button>
         <HiBars3 size={30} onClick={() => setClick((prev) => !prev)}/>
         </div>
     </div>
